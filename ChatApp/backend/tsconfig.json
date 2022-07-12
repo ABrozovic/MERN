@@ -26,8 +26,11 @@
     "allowJs": true,
     "outDir": "dist"
   },
+  "ts-node": {
+    "files": true
+  },
   "include": [
     "./src/**/*",
-    "./__tests__/**/*"
+    "./__tests__/**/*",
   ]
 }
